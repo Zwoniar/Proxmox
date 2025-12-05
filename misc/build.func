@@ -100,7 +100,7 @@ pve_check() {
     echo -e "Requires Proxmox Virtual Environment Version 8.1 or later."
     echo -e "But will start anyway..."
     sleep 2
-    exit
+  fi
 }
 
 # This function checks the system architecture and exits if it's not "amd64".
